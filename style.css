@@ -18,15 +18,16 @@ header{
 }
 
 header .cabecalho{
-    background: linear-gradient( 60deg,#f51df8, #7a1df8, #6e03ff, #f93f96);
+    background-image: linear-gradient(rgba(17,47,86, 0.5), rgba(17, 47, 86, 0.5)), url("images/TombRaider.jpg");
+    /* background: linear-gradient( 60deg,#f51df8, #7a1df8, #6e03ff, #f93f96); */
     background-size: 400%, 400%;
     width: 100%;
     height: 100vh;
     position: relative;
-    animation: troca 8s ease-in-out infinite;
+    /* animation: troca 8s ease-in-out infinite; */
 }
 
-@keyframes troca{
+/* @keyframes troca{
     0%{
         background-position: 0 50%;
     }
@@ -36,7 +37,7 @@ header .cabecalho{
     100%{
         background-position: 0 50%;
     }
-}
+} */
 header .cabecalho h1{
     padding: 20px;
     font-size: 30px;
