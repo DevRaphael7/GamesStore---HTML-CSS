@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* ------- Cabeçalho --------- */
+header{
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+header .cabecalho{
+    background: linear-gradient( 60deg,#f51df8, #7a1df8, #6e03ff, #f93f96);
+    background-size: 400%, 400%;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    animation: troca 8s ease-in-out infinite;
+}
+
+@keyframes troca{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+header .cabecalho h1{
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+header .botoes button{
+    margin-top: 20px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    font-size: 12px;
+    width: 90px;
+    height: 40px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    border-radius: 25px;
+}
+
+.botoes{
+    width: 250px;
+    margin-right: 20px;
+}
+
+.botoes button{
+    margin-left: 20px;
+    margin-right: 12px;
+}
+
+.botoes button:hover{
+    background-color: white;
+    color: blue;
+    transition: 0.8s;
+}
+
+/* ----- Boas vindas ---------- */
+
+.boas-vindas{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+
+/* background: rgba(26, 151, 222, 0.7); */
+.mensagem{ 
+    margin-top: 200px;
+    margin-left: 140px;
+    display: block;
+    
+    background: transparent;
+    border: 1px solid white;
+    width: 550px;
+    height: 250px;
+    border-radius: 25px;
+}
+.mensagem h1, p{
+    color: white;
+    font-size: 18px;
+}
+.mensagem h1::after{
+    content: "🎮";
+    padding-left: 2px;
+}
+.mensagem p{
+    padding-top: 20px;
+}
+.boas-vindas img{
+    width: 300px;
+    position: absolute;
+    top: 25%;
+    left: 55%;
+    transition: 0.2s;
+}
+
+.boas-vindas img:hover{
+    transform: scale(1.2);
+}
+
+.boas-vindas button{
+    margin-top: 50px;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background: #fa642c;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s;
+}
+
+.boas-vindas button::after{
+    content: "\279C";
+    padding-left: 5px;
+}
+.boas-vindas button:hover{
+    background: #f64401;
+}
+
