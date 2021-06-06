@@ -17,6 +17,11 @@ header{
     /* background: #3d4044; */
     height: 100%;
 }
+.cabecalho button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
 .cabecalho h1{
     padding: 20px;
     font-size: 30px;
@@ -128,41 +133,63 @@ header{
 }
 
 /* ------- PS4 Console --------- */
-.ps4-games{
+.console-games-ps4{
     margin-top: 20px;
-    background-image: linear-gradient(#0c547a, #179de3, #0c547a);
+    background-image: linear-gradient(#15a0e5, #1c8bc2, #15a0e5);
     width: 100%;
     height: 70vh;
     position: relative;
 }
-.ps4-games .coluna{
+.console-games-ps4 .coluna{
     text-align: left;
-    margin-top: 220px;
-    margin-left: 140px;
+    margin-top: 10%;
+    margin-left: 120px;
 }
-.ps4-games .oferta{
+.console-games-ps4 .oferta{
     font-size: 18px;
     font-weight: 0;
-    color: #4c4e4f;
+    color: #ccc;
 }
-.ps4-games p{
+.console-games-ps4 p{
     font-size: 22px;
+    color: #fff;
 }
-.ps4-games h1{
+.console-games-ps4 h1{
     font-size: 35px;
     color: #112f56;
 }
-.ps4-games img{
-    width: 400px;
-    margin-top: 200px;
-    margin-right: 180px;
+.console-games-ps4 img{
+    width: 600px;
+    margin-top: 100px;
+    margin-right: 140px;
 }
-.ps4-games img:hover{
+.console-games-ps4 img:hover{
     transform: scale(1.3);
     transition: 0.4s;
 }
 
-/* --------- Games Sale ----------- */
+.console-games-ps4 button{
+    margin-top: 50px;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background: #fa642c;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s;
+}
+
+.console-games-ps4 button:after{
+    content: "\279C";
+    padding-left: 5px;
+}
+.console-games-ps4 button:hover{
+    background: #f64401;
+}
+
+/* --------- Games Sale (PS4) ----------- */
 .games-sale{
     margin-top: 30px;
     margin-left: 20px;
@@ -197,4 +224,59 @@ header{
     font-size: 15px;
     font-style: normal;
 }
+/*---------- Xbox One console ----- */
+.console-games-xbox{
+    margin-top: 20px;
+    background-image: linear-gradient(#0da833, #13822e, #0da833);
+    width: 100%;
+    height: 70vh;
+    position: relative;
+}
+.console-games-xbox .coluna{
+    text-align: left;
+    margin-top: 10%;
+    margin-left: 120px;
+}
+.console-games-xbox .oferta{
+    font-size: 18px;
+    font-weight: 0;
+    color: #ccc;
+}
+.console-games-xbox p{
+    font-size: 22px;
+    color: #fff;
+}
+.console-games-xbox h1{
+    font-size: 35px;
+    color: #1ed54b;
+}
+.console-games-xbox img{
+    width: 550px;
+    margin-top: 100px;
+    margin-right: 140px;
+}
+.console-games-xbox img:hover{
+    transform: scale(1.3);
+    transition: 0.4s;
+}
 
+.console-games-xbox button{
+    margin-top: 50px;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background: #fa642c;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s;
+}
+
+.console-games-xbox button:after{
+    content: "\279C";
+    padding-left: 5px;
+}
+.console-games-xbox button:hover{
+    background: #f64401;
+}
