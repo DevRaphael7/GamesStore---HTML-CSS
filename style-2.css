@@ -9,6 +9,7 @@ header{
     width: 100%;
     height: 70vh;
     background-image: linear-gradient(rgba(17,47,86, 0.5), rgba(17, 47, 86, 0.5)), url("images/TombRaider.jpg");
+    background-size: 120% auto;
     /* background: #000; */
 }
 
@@ -23,6 +24,8 @@ header{
     cursor: pointer;
 }
 .cabecalho h1{
+    /* Horizontal | Vertical */
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.7);
     padding: 20px;
     font-size: 30px;
     font-weight: bold;
@@ -103,6 +106,9 @@ header{
     margin-right: 40px;
     height: auto;
 }
+.destaque h2{
+    text-shadow: 2px 3px rgba(0, 0, 0, 0.2);
+}
 
 .destaque hr{
     margin-top: 10px;
@@ -153,10 +159,12 @@ header{
 .console-games-ps4 p{
     font-size: 22px;
     color: #fff;
+    text-shadow: 1px 2px rgba(0, 0, 0, 0.3);
 }
 .console-games-ps4 h1{
     font-size: 35px;
     color: #112f56;
+    text-shadow: 1px 2px rgba(0, 0, 0, 0.3);
 }
 .console-games-ps4 img{
     width: 600px;
@@ -196,6 +204,7 @@ header{
     margin-right: 20px;
 }
 .games-sale h1{
+    text-shadow: 2px 3px rgba(0, 0, 0, 0.2);
     font-weight: 600;
     letter-spacing: 2px;
 }
@@ -245,10 +254,12 @@ header{
 .console-games-xbox p{
     font-size: 22px;
     color: #fff;
+    text-shadow: 1px 2px rgba(0, 0, 0, 0.3);
 }
 .console-games-xbox h1{
     font-size: 35px;
     color: #1ed54b;
+    text-shadow: 1px 2px rgba(0, 0, 0, 0.3);
 }
 .console-games-xbox img{
     width: 550px;
@@ -279,4 +290,125 @@ header{
 }
 .console-games-xbox button:hover{
     background: #f64401;
+}
+/* ---- Nintendo Console ---- */
+.console-games-nintendo{
+    margin-top: 20px;
+    background-image: linear-gradient(#e8453d, #f02c21, #e8453d);
+    width: 100%;
+    height: 70vh;
+    position: relative;
+}
+.console-games-nintendo .coluna{
+    text-align: left;
+    margin-top: 10%;
+    margin-left: 120px;
+}
+.console-games-nintendo .oferta{
+    font-size: 18px;
+    font-weight: 0;
+    color: #ccc;
+}
+.console-games-nintendo p{
+    font-size: 22px;
+    color: #fff;
+    text-shadow: 1px 2px rgba(0, 0, 0, 0.3);
+}
+.console-games-nintendo h1{
+    font-size: 35px;
+    color: #e95c5c;
+    text-shadow: 1px 2px rgba(0, 0, 0, 0.3);
+}
+.console-games-nintendo img{
+    width: 550px;
+    margin-top: 100px;
+    margin-right: 140px;
+}
+.console-games-nintendo img:hover{
+    transform: scale(1.3);
+    transition: 0.4s;
+}
+
+.console-games-nintendo button{
+    margin-top: 50px;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background: #fa642c;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s;
+}
+
+.console-games-nintendo button:after{
+    content: "\279C";
+    padding-left: 5px;
+}
+.console-games-nintendo button:hover{
+    background: #f64401;
+}
+/* --- Footer --- */
+footer{
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    background-color: #000;
+    color: #8a8a8a;
+    height: 31vh;
+}
+footer h3, h4{
+    padding-top: 5px;
+}
+footer .coluna{
+    padding-top: 40px;
+    padding-left: 70px;
+}
+footer .coluna img{
+    padding-top: 15px;
+    width: 140px;
+    height: auto;
+    padding-right: 10px;
+}
+footer .coluna .ios-store{
+    margin-top: 10px;
+    width: auto;
+    height: 60px;
+}
+footer .store-logo button{
+    background: transparent;
+    border: none;
+    color: #fff;
+    padding-top: 75px;
+    cursor: pointer;
+    font-size: 25px;
+}
+footer .store-logo h1:before{
+    content: "🎮";
+    padding-right: 10px;
+    text-decoration: none;
+}
+footer .siga-nos{
+    padding-right: 10%;
+    padding-top: 60px;
+}
+footer .siga-nos h2{
+    padding-bottom: 35px;
+}
+footer .siga-nos ul li{
+    display: inline;
+    padding: 10px;
+}
+footer .siga-nos .Youtube{
+    width: 70px;
+    cursor: pointer;
+}
+footer .siga-nos .Twitter{
+    width: 56px;
+    cursor: pointer;
+}
+footer .siga-nos .Facebook{
+    width: 50px;
+    cursor: pointer;
 }
