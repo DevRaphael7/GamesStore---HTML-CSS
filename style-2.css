@@ -412,3 +412,71 @@ footer .siga-nos .Facebook{
     width: 50px;
     cursor: pointer;
 }
+header .cabecalho-detalhes{
+    height: 35vh;
+}
+/* --- Detalhes Produto ---- */
+.cabecalho-max{
+    height: 45vh;
+}
+.detalhes-produto{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 680px;
+    /* background-color: #112f56; */
+}
+.detalhes-produto img{
+    width: 280px;
+}
+.detalhes-produto h1{
+    margin-top: 20px;
+}
+.detalhes-produto h2{
+    padding-top: 110px;
+}
+.detalhes-produto button{
+    width: 120px;
+}
+.text-big-format{
+    text-shadow: 2px 3px rgba(0, 0, 0, 0.2);
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #000;
+}
+.button-format{
+    width: auto;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background: #fa642c;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s;
+}
+.button-format:after{
+    content: "\2714";
+    padding-left: 5px;
+}
+.button-format:hover{
+    background: #f64401;
+}
+.detalhes-produto .Descrição{
+    padding-top: 5px;
+}
+/* --- Estrelas ---- */
+.estrelas{
+    display: flex;
+    list-style: none;
+    width: 100%;
+}
+.estrelas li{
+    display: inline;
+    float: right;   
+}
+.estrelas .fas{
+    color: #fa642c;
+}
+.estrelas li .fas:hover{
+    color: #f64401;
+}
