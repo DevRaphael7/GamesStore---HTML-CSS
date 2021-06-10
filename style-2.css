@@ -486,3 +486,108 @@ header .cabecalho-detalhes{
 .estrelas li .fas:hover{
     color: #f64401;
 }
+
+@media only screen and (max-width: 1280px){
+    /* Cabeçalho */
+    header{
+        height: 40vh;
+        background-size: 150% auto;
+    }
+    .nav-links{
+        width: 60%;
+    }
+    .cabecalho h1{
+        font-size: 23px;
+    }
+    /* Console logo */
+    .ps4-logo {
+        width: 230px;
+        top: 12%;
+        left: 35%;
+    }
+    .xbox-logo{
+        width: 100px;
+        top: 18%;
+        left: 42.2%;
+    }
+    .nintendo-logo{
+        width: 100px;
+        top: 30%;
+        left: 41%;
+    }
+    /* Jogos destaque */
+    .destaque .row{
+        display: block;
+    }
+    .destaque-jp{
+        max-width: 410px;
+        margin-left: 19.5%;
+    }
+    .destaque-jp img{
+        width: 100%;
+        margin-top: 30px;
+    }
+    /* PS4 console */
+    .console-games-ps4{
+        height: 42vh;
+    }
+    .console-games-ps4 .coluna{
+        text-align: left;
+        margin-top: 45%;
+        margin-left: 120px;
+    }
+    .console-games-ps4 img{
+        width: 400px;
+        position: absolute;
+        left: 20%;
+    }
+    .console-games-ps4 button{
+        margin-left: 140px;
+    }
+    /* Games Sale */
+    .games-sale .row{
+        display: block;
+    }
+
+    .games-sale .coluna{
+        max-width: 410px;
+        margin-left: 19.5%;
+    }
+    .coluna img{
+        width: 450px;
+    }
+    /* Xbox console */
+    .console-games-xbox{
+        height: 42vh;
+    }
+    .console-games-xbox .coluna{
+        text-align: left;
+        margin-top: 45%;
+        margin-left: 120px;
+    }
+    .console-games-xbox img{
+        width: 400px;
+        position: absolute;
+        left: 20%;
+    }
+    .console-games-xbox button{
+        margin-left: 140px;
+    }
+    /* Nintendo console */
+    .console-games-nintendo{
+        height: 42vh;
+    }
+    .console-games-nintendo .coluna{
+        text-align: left;
+        margin-top: 45%;
+        margin-left: 120px;
+    }
+    .console-games-nintendo img{
+        width: 400px;
+        position: absolute;
+        left: 20%;
+    }
+    .console-games-nintendo button{
+        margin-left: 140px;
+    }
+}
