@@ -6,6 +6,9 @@
     <p>Página HTML <i>desktop</i> e <i>mobile</i>
 <p>
 
+<p align="center">
+    <img src="página-principal.gif">
+
 Esta página é a página de introdução, onde o usuário visualiza e seleciona o produto por sua categoria.
 
 
